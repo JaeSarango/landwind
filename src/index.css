@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-banner {
+  object-fit: contain;
+  width: 532px;
+  height: 435px;
+}
+.logos {
+  height: 1.7rem;
+}
