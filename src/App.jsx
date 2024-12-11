@@ -4,11 +4,10 @@ import Hero from "./components/Hero";
 import NavbarWind from "./components/NavbarWind";
 import StatisticalInfo from "./components/StatisticalInfo";
 import comilla from "./assets/comilla.svg";
-
 import { logos } from "./data";
-import Footer from "./components/footer";
 import PlansToPay from "./components/PlansToPay";
 import Faqs from "./components/Faqs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
