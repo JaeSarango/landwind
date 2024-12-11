@@ -3,7 +3,7 @@ import ListServices from "./ListServices";
 import { Button } from "@nextui-org/react";
 import { planes } from "../data";
 
-export default function Planes() {
+function Planes() {
   return (
     <div className=" flex flex-col items-center justify-center gap-x-16 lg:container  px-6 md:px-0  mx-auto md:flex-row ">
       {planes.map((item, i) => (
@@ -24,3 +24,4 @@ export default function Planes() {
     </div>
   );
 }
+export default Planes;

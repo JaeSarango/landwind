@@ -3,7 +3,7 @@ import InfoFooterList from "./InfoFooterList";
 import { footer, icoFooter } from "../data";
 import logo from "../assets/logo.svg";
 
-export default function Footer() {
+function Footer() {
   return (
     <footer className="w-full   lg:container  px-6 md:px-0  mx-auto py-8">
       <div className="grid  grid-cols-1 md:grid-cols-5">
@@ -29,3 +29,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;

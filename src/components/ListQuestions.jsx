@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 
-export default function ListQuestions({ itemx }) {
+function ListQuestions({ itemx }) {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -23,3 +23,5 @@ export default function ListQuestions({ itemx }) {
     </div>
   );
 }
+
+export default ListQuestions;

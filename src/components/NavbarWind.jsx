@@ -12,7 +12,7 @@ import {
 import React, { useState } from "react";
 import logoWind from "../assets/logo.svg";
 
-export default function NavbarWind() {
+function NavbarWind() {
   const menuItems = [
     "Company",
     "Market Place",
@@ -95,3 +95,5 @@ export default function NavbarWind() {
     </Navbar>
   );
 }
+
+export default NavbarWind;

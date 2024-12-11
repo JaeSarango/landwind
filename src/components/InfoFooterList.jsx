@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function InfoFooterList({ arrayList }) {
+function InfoFooterList({ arrayList }) {
   return (
     <div>
       {arrayList.map((text, i) => (
@@ -11,3 +11,5 @@ export default function InfoFooterList({ arrayList }) {
     </div>
   );
 }
+
+export default InfoFooterList;

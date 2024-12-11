@@ -1,7 +1,7 @@
 import React from "react";
 import { VscCheck } from "react-icons/vsc";
 
-export default function ListServices({ listServ }) {
+function ListServices({ listServ }) {
   return (
     <ul>
       {listServ.map((item, i) => (
@@ -13,3 +13,5 @@ export default function ListServices({ listServ }) {
     </ul>
   );
 }
+
+export default ListServices;

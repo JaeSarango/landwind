@@ -1,7 +1,7 @@
 import React from "react";
 import Planes from "./Planes";
 
-export default function PlansToPay() {
+function PlansToPay() {
   return (
     <div className="lg:container  px-6 md:px-0  mx-auto my-12">
       <div className=" flex items-center flex-col">
@@ -15,3 +15,5 @@ export default function PlansToPay() {
     </div>
   );
 }
+
+export default PlansToPay;

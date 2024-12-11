@@ -3,7 +3,7 @@ import InfoByUsers from "./InfoByUsers";
 
 import { dataUser } from "../data";
 
-export default function Databyusers() {
+const Databyusers = () => {
   return (
     <div className="lg:container  px-6 md:px-0  mx-auto flex flex-col md:flex-row md:mt-10">
       <div className="flex-1 ">
@@ -30,4 +30,6 @@ export default function Databyusers() {
       </div>
     </div>
   );
-}
+};
+
+export default Databyusers;

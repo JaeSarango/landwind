@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function InfoByUsers({ ico, title, parrafo }) {
+const InfoByUsers = ({ ico, title, parrafo }) => {
   return (
     <div>
       <img src={ico} alt="" />
@@ -8,4 +8,5 @@ export default function InfoByUsers({ ico, title, parrafo }) {
       <p className="text-slate-400 max-w-[200px]">{parrafo} </p>
     </div>
   );
-}
+};
+export default InfoByUsers;
