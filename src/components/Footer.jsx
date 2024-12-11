@@ -18,7 +18,7 @@ function Footer() {
           <img src={logo} alt="" />
           <p>Landwind</p>
         </div>
-        <p>© 2022 Flowbite, Inc. All rights reserved.</p>
+        <p>© 2022 Flowbite, Inc. All rights reserved by Jae.</p>
         <div className=" flex flex-row">
           {icoFooter.map((img, i) => (
             <img key={i} src={img} />
