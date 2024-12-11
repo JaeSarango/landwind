@@ -1,13 +1,14 @@
 import "./App.css";
-import Databyusers from "./components/Databyusers";
-import Hero from "./components/Hero";
-import NavbarWind from "./components/NavbarWind";
-import StatisticalInfo from "./components/StatisticalInfo";
 import comilla from "./assets/comilla.svg";
 import { logos } from "./data";
-import PlansToPay from "./components/PlansToPay";
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
+import NavbarWind from "./components/NavbarWind";
+import Hero from "./components/Hero";
+import StatisticalInfo from "./components/StatisticalInfo";
+import Databyusers from "./components/Databyusers";
+import PlansToPay from "./components/PlansToPay";
+import Faqs from "./components/Faqs";
 
 function App() {
   return (
