@@ -1,5 +1,3 @@
-import React from "react";
-
 const InfoByUsers = ({ ico, title, parrafo }) => {
   return (
     <div>

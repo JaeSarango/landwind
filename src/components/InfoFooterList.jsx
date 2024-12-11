@@ -1,5 +1,3 @@
-import React from "react";
-
 function InfoFooterList({ arrayList }) {
   return (
     <div>

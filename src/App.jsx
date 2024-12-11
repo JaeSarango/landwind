@@ -19,9 +19,9 @@ function App() {
       <div className="flex flex-col bg-[#F9FAFB] justify-center items-center md:py-20 p-6 mt-5 ">
         <img className="w-10 h-10 my-3" src={comilla} alt="" />
         <p className="max-w-[550px] mb-4">
-          "Flowbite is just awesome. It contains tons of predesigned components
-          and pages starting from login screen to complex dashboard. Perfect
-          choice for your next SaaS application."
+          &quot;Flowbite is just awesome. It contains tons of predesigned
+          components and pages starting from login screen to complex dashboard.
+          Perfect choice for your next SaaS application.&quot;
         </p>
       </div>
       <PlansToPay />

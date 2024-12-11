@@ -1,4 +1,3 @@
-import React from "react";
 import InfoFooterList from "./InfoFooterList";
 import { footer, icoFooter } from "../data";
 import logo from "../assets/logo.svg";
