@@ -6,8 +6,8 @@ import Footer from "./components/Footer";
 import NavbarWind from "./components/NavbarWind";
 import Hero from "./components/Hero";
 import StatisticalInfo from "./components/StatisticalInfo";
-import Databyusers from "./components/Databyusers";
 import PlansToPay from "./components/PlansToPay";
+import Databyusers from "./components/DataByUsers";
 
 function App() {
   return (
