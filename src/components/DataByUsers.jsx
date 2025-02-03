@@ -1,4 +1,3 @@
-import React from "react";
 import InfoByUsers from "./InfoByUsers";
 
 import { dataUser } from "../data";
